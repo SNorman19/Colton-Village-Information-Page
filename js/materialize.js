@@ -10017,5 +10017,7 @@ if (Vel) {
     if (methods[methodOrOptions] || typeof methodOrOptions === 'object') return methods.init.apply(this, arguments);
 
     $.error('Method ' + methodOrOptions + ' does not exist on jQuery.tap-target');
+      
   };
 })(jQuery);
+
