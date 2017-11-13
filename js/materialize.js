@@ -10017,9 +10017,16 @@ if (Vel) {
     if (methods[methodOrOptions] || typeof methodOrOptions === 'object') return methods.init.apply(this, arguments);
 
     $.error('Method ' + methodOrOptions + ' does not exist on jQuery.tap-target');
+       $(document).ready(function(){
+      $('.carousel').carousel();
+    });
       
   };
 })(jQuery);
  $(document).ready(function() {
     $('input#input_text, textarea#textarea1').characterCounter();
+      $(document).ready(function(){
+     
+    });
+        
   });
