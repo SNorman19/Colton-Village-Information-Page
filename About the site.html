@@ -31,38 +31,39 @@
     </style>
 </head>
     <!--navigation bar end-->
-    <body class= "indigo lighten-5">
+  <body class= "indigo lighten-5">
+        
          <header>
     <!--Navigation bar-->
     <nav>
   <div class="nav-wrapper black lighten-2">
     <ul class="left hide-on-med-and-down">
-      <li><a href="Index.html">Index</a></li>
+      <li><a href="Index.html">Home</a></li>
       <li><a href="About%20the%20site.html">About the site</a></li>
       <!-- Dropdown Trigger -->
-       <li><a class="dropdown-button" href="Colton%20Village%20Hall.html" data-activates="dropdown1">Places to Visit<i class="material-icons right">arrow_drop_down</i></a></li> <ul id='dropdown1' class='dropdown-content'>
+        <li><a class="dropdown-button" href="" data-activates="dropdown1">Places to Visit<i class="material-icons right">arrow_drop_down</i></a></li> <ul id='dropdown1' class='dropdown-content'>
     <li><a href="Colton%20Village%20Hall.html">Colton Villiage Hall</a></li>
         <li><a href="St%20Mary's%20Church.html">St Mary's Church</a></li>
         <li><a href="The%20Greyhound%20Inn.html">The Greyhound Inn</a></li>
         </ul>
-        <li><a class="dropdown-button" href="" data-activates="dropdown1">Places to Stay<i class="material-icons right">arrow_drop_down</i></a></li><ul id='dropdown1' class='dropdown-content'>
+        <li><a class="dropdown-button" href="" data-activates="dropdown2">Places to Stay<i class="material-icons right">arrow_drop_down</i></a></li><ul id='dropdown2' class='dropdown-content'>
     <li><a href="Colton%20House.html">Colton House</a></li>
         <li><a href="Ye%20Old%20Dunn%20Cow%20Pub.html">Ye Old Dunn Cow Pub</a></li>
         </ul>
-      <li><a class="dropdown-button" href="" data-activates="dropdown1">Places to Eat<i class="material-icons right">arrow_drop_down</i></a></li><ul id='dropdown1' class='dropdown-content'>
+      <li><a class="dropdown-button" href="" data-activates="dropdown3">Places to Eat<i class="material-icons right">arrow_drop_down</i></a></li><ul id='dropdown3' class='dropdown-content'>
     <li><a href="Ye%20Old%20Dunn%20Cow%20Pub.html">Ye Old Dunn Cow Pub</a></li>
         <li><a href="The%20Yorkshireman.html">The Yorkshireman</a></li>
         </ul>
         <li><a href="Contact%20Us.html">Contact Us</a></li>
     </ul>
   </div>
-</nav>
-             
+  </div>
+</nav>        
 </header>
         
       <main>  
           <ul class="left hide-on-med-and-down">
-     <li><a href="Index.html">Index</a></li>
+     <li><a href="Index.html">Home</a></li>
     <li><a href="About%20the%20site.html">About the Site</a></li>
     <li><a href="Colton%20Village%20Hall.html">Colton Villiage Hall</a></li>
     <li><a href="St%20Mary's%20Church.html">St Mary's Church</a></li>
@@ -74,12 +75,30 @@
       </ul>
       <div class="container">
         <!-- Page Content goes here -->
-          <a class="navbar-center"> <img class="responsive-img" src="assets/aboutthesitepic.JPG" img style="padding-top:5px" height="300" width="460">
-              <img class="responsive-img" src="assets/aboutsitepic2.JPG" img style="padding-top:5px" height="300" width="460"></a>
+                    <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="assets/aboutthesitepic.JPG"  height="350" width="850"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/coltonhousepic.JPG" height="350" width="850"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/villiagehallpic.JPG" height="350" width="850"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/yeolddunncowpubpic1.JPG" height="350" width="850"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/yorkshiremanpic1.JPG" height="350" width="850"></a>
+    <a class="carousel-item" href="#six!"><img src="assets/stmarychurchpic2.JPG" height="350" width="850"></a>
+    <a class="carousel-item" href="#seven!"><img src="assets/greyhound.jpg" height="350" width="850"></a>
+              
+              <script type="text/javascript" language="javascript">
+            $( document ).ready(function(){
+
+                $(".button-collapse").sideNav();//mobile screen menu init
+
+                $('.carousel').carousel(); //carousel init
+
+                $('.carousel-slider').slider({full_width: true});//slider init
+            });
+        </script>
+  </div>
             <div class="col s6">
         <div class="card black lighten-2">
         <div class="card-content"> > 
-           <p class= "white-text">The Colton Villiage Information Page is a Website giving users information on Colton and a better understanding on what they can do there, plus this website will help attract more users into visiting Colton. In this website I’ll be including an about the site page, places to visit, places to stay, places to eat pages and a contact page.</p>
+           <p class= "white-text">The Colton Villiage Information Page is a non profitable Website giving users information on Colton and a better understanding on what they can do there, plus this website will help attract more users into visiting Colton. In this website I’ll be including an about the site page, places to visit, places to stay, places to eat pages and a contact page.</p>
       </div>
    </main>
    
